@@ -1,0 +1,32 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore data files (keep your repo lightweight)
+data/
+*.csv
+*.xlsx
+*.zip
+
+# Ignore model binaries (large files)
+*.pkl
+*.joblib
+*.h5
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
